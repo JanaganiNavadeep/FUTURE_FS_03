@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone Pro - Premium Gym & Fitness Center</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-3d">FitZone</span><span class="logo-pro">Pro</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="join-btn">Join Now</button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with 3D Background -->
+    <section id="home" class="hero">
+        <div class="hero-3d-background">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+            <div class="floating-shape shape-4"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-3d">Transform Your</span>
+                <span class="title-highlight">Body & Mind</span>
+            </h1>
+            <p class="hero-subtitle">Experience fitness like never before with cutting-edge equipment and expert trainers</p>
+            <div class="hero-buttons">
+                <button class="btn-primary">Start Free Trial</button>
+                <button class="btn-secondary">Virtual Tour</button>
+            </div>
+        </div>
+        <div class="hero-3d-element">
+            <div class="dumbbell-3d">
+                <div class="dumbbell-left"></div>
+                <div class="dumbbell-bar"></div>
+                <div class="dumbbell-right"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-icon">🏋️</div>
+                <div class="stat-number" data-target="500">0</div>
+                <div class="stat-label">Members</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">👨‍🏫</div>
+                <div class="stat-number" data-target="25">0</div>
+                <div class="stat-label">Expert Trainers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">🎯</div>
+                <div class="stat-number" data-target="50">0</div>
+                <div class="stat-label">Fitness Programs</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">⭐</div>
+                <div class="stat-number" data-target="98">0</div>
+                <div class="stat-label">% Satisfaction</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-image">
+                <div class="image-3d-wrapper">
+                    <div class="about-img-placeholder">
+                        <div class="placeholder-3d">
+                            <div class="cube">
+                                <div class="cube-face front"></div>
+                                <div class="cube-face back"></div>
+                                <div class="cube-face right"></div>
+                                <div class="cube-face left"></div>
+                                <div class="cube-face top"></div>
+                                <div class="cube-face bottom"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-content">
+                <h2 class="section-title">Why Choose <span class="highlight">FitZone Pro</span></h2>
+                <p class="about-text">At FitZone Pro, we believe fitness is a journey, not a destination. Our state-of-the-art facility combines cutting-edge technology with personalized training to help you achieve your goals.</p>
+                <div class="features-list">
+                    <div class="feature-item">
+                        <div class="feature-icon">✓</div>
+                        <span>24/7 Access to Premium Equipment</span>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">✓</div>
+                        <span>Certified Personal Trainers</span>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">✓</div>
+                        <span>Nutrition & Wellness Programs</span>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">✓</div>
+                        <span>Group Fitness Classes</span>
+                    </div>
+                </div>
+                <button class="learn-more-btn">Learn More About Us</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="services-container">
+            <h2 class="section-title">Our <span class="highlight">Services</span></h2>
+            <p class="section-subtitle">Discover our comprehensive range of fitness programs</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon-3d">💪</div>
+                    <h3>Strength Training</h3>
+                    <p>Build muscle and increase strength with our premium weight training equipment and expert guidance.</p>
+                    <button class="service-btn" data-service="strength">Explore</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-3d">🧘</div>
+                    <h3>Yoga & Pilates</h3>
+                    <p>Improve flexibility, balance, and mindfulness through our diverse yoga and pilates classes.</p>
+                    <button class="service-btn" data-service="yoga">Explore</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-3d">🏃</div>
+                    <h3>Cardio & HIIT</h3>
+                    <p>Burn calories and boost endurance with high-intensity interval training and cardio sessions.</p>
+                    <button class="service-btn" data-service="cardio">Explore</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-3d">🥊</div>
+                    <h3>Boxing & MMA</h3>
+                    <p>Learn self-defense while getting an incredible full-body workout with our boxing programs.</p>
+                    <button class="service-btn" data-service="boxing">Explore</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-3d">🏊</div>
+                    <h3>Swimming Pool</h3>
+                    <p>Enjoy our heated swimming pool for low-impact exercise and relaxation after workouts.</p>
+                    <button class="service-btn" data-service="swimming">Explore</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-3d">👨‍👩‍👧</div>
+                    <h3>Personal Training</h3>
+                    <p>Get one-on-one attention with customized workout plans tailored to your specific goals.</p>
+                    <button class="service-btn" data-service="personal">Explore</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="pricing-container">
+            <h2 class="section-title">Membership <span class="highlight">Plans</span></h2>
+            <p class="section-subtitle">Choose the perfect plan for your fitness journey</p>
+            <div class="pricing-grid">
+                <div class="pricing-card basic">
+                    <div class="pricing-header">
+                        <h3>Basic</h3>
+                        <div class="price">$29<span>/month</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Gym Access (6am - 10pm)</li>
+                        <li>✓ Basic Equipment</li>
+                        <li>✓ Locker Room Access</li>
+                        <li>✗ Group Classes</li>
+                        <li>✗ Personal Training</li>
+                    </ul>
+                    <button class="pricing-btn" data-plan="basic" data-price="29">Get Started</button>
+                </div>
+                <div class="pricing-card pro">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="price">$59<span>/month</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ 24/7 Gym Access</li>
+                        <li>✓ All Equipment</li>
+                        <li>✓ Group Classes</li>
+                        <li>✓ 2 PT Sessions/month</li>
+                        <li>✗ Nutrition Planning</li>
+                    </ul>
+                    <button class="pricing-btn" data-plan="pro" data-price="59">Get Started</button>
+                </div>
+                <div class="pricing-card elite">
+                    <div class="pricing-header">
+                        <h3>Elite</h3>
+                        <div class="price">$99<span>/month</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ 24/7 Gym Access</li>
+                        <li>✓ All Equipment & Amenities</li>
+                        <li>✓ Unlimited Classes</li>
+                        <li>✓ Unlimited PT Sessions</li>
+                        <li>✓ Nutrition Planning</li>
+                    </ul>
+                    <button class="pricing-btn" data-plan="elite" data-price="99">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="testimonials-container">
+            <h2 class="section-title">What Our <span class="highlight">Members Say</span></h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <p>"FitZone Pro transformed my life! The trainers are incredibly knowledgeable and the facilities are top-notch. I've never felt better!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">JD</div>
+                            <div class="author-info">
+                                <h4>John Doe</h4>
+                                <span>Member for 2 years</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The group classes are amazing! I've made great friends and actually look forward to working out. Best decision I ever made!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">SM</div>
+                            <div class="author-info">
+                                <h4>Sarah Miller</h4>
+                                <span>Member for 1 year</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"As a busy professional, the 24/7 access is a game-changer. The equipment is always clean and well-maintained."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">MJ</div>
+                            <div class="author-info">
+                                <h4>Mike Johnson</h4>
+                                <span>Member for 6 months</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+                <p class="contact-subtitle">Ready to start your fitness journey? Contact us today!</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>123 Fitness Street, Gym City, GC 12345</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@fitzonepro.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🕐</div>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>24/7 for Pro & Elite members</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Your Phone" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <span class="logo-3d">FitZone</span><span class="logo-pro">Pro</span>
+                </div>
+                <p>Transform your body and mind with the best fitness experience in town.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">📘</a>
+                    <a href="#" class="social-link">📸</a>
+                    <a href="#" class="social-link">🐦</a>
+                    <a href="#" class="social-link">📺</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Strength Training</a></li>
+                    <li><a href="#">Yoga & Pilates</a></li>
+                    <li><a href="#">Cardio & HIIT</a></li>
+                    <li><a href="#">Personal Training</a></li>
+                    <li><a href="#">Nutrition</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <p>Subscribe for fitness tips and special offers!</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 FitZone Pro. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Payment Form Modal -->
+    <div id="paymentModal" class="payment-modal">
+        <div class="payment-modal-content">
+            <span class="close-payment-modal">&times;</span>
+            <div class="payment-header">
+                <h2 class="payment-title">Complete Your Membership</h2>
+                <div class="selected-plan">
+                    <span class="plan-label">Selected Plan:</span>
+                    <span class="plan-name" id="selectedPlanName">Pro</span>
+                    <span class="plan-price" id="selectedPlanPrice">$59/month</span>
+                </div>
+            </div>
+            
+            <form id="paymentForm" class="payment-form">
+                <div class="form-section">
+                    <h3>Personal Information</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="dateOfBirth">Date of Birth</label>
+                        <input type="date" id="dateOfBirth" name="dateOfBirth">
+                    </div>
+                </div>
+                
+                <div class="form-section">
+                    <h3>Payment Information</h3>
+                    <div class="form-group">
+                        <label for="cardNumber">Card Number *</label>
+                        <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9012 3456" maxlength="19" required>
+                        <div class="card-icons">
+                            <span>💳</span>
+                            <span>💳</span>
+                            <span>💳</span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="expiryDate">Expiry Date *</label>
+                            <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" maxlength="5" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cvv">CVV *</label>
+                            <input type="text" id="cvv" name="cvv" placeholder="123" maxlength="4" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="cardName">Name on Card *</label>
+                        <input type="text" id="cardName" name="cardName" required>
+                    </div>
+                </div>
+                
+                <div class="form-section">
+                    <h3>Billing Address</h3>
+                    <div class="form-group">
+                        <label for="address">Street Address *</label>
+                        <input type="text" id="address" name="address" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city">City *</label>
+                            <input type="text" id="city" name="city" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="zipCode">ZIP Code *</label>
+                            <input type="text" id="zipCode" name="zipCode" required>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-section">
+                    <div class="terms-checkbox">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                    </div>
+                    <div class="terms-checkbox">
+                        <input type="checkbox" id="autoRenew" name="autoRenew">
+                        <label for="autoRenew">Auto-renew membership (recommended)</label>
+                    </div>
+                </div>
+                
+                <div class="payment-summary">
+                    <div class="summary-row">
+                        <span>Monthly Membership:</span>
+                        <span id="summaryPrice">$59.00</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Sign-up Fee:</span>
+                        <span>$0.00</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Total Due Today:</span>
+                        <span id="totalDue">$59.00</span>
+                    </div>
+                </div>
+                
+                <button type="submit" class="submit-payment-btn">
+                    <span class="btn-text">Complete Payment</span>
+                    <span class="btn-loader" style="display: none;">Processing...</span>
+                </button>
+                
+                <p class="secure-payment">
+                    🔒 Your payment information is secure and encrypted
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Service Detail Modals -->
+    <div id="serviceModal" class="service-modal">
+        <div class="service-modal-content">
+            <span class="close-service-modal">&times;</span>
+            <div id="serviceModalBody">
+                <!-- Service content will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Equipment Modal -->
+    <div id="equipmentModal" class="equipment-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="modal-title">Our Premium Equipment</h2>
+            <p class="modal-subtitle">Explore our state-of-the-art gym equipment with interactive 3D views</p>
+            
+            <div class="equipment-grid">
+                <div class="equipment-item">
+                    <div class="equipment-3d">
+                        <div class="dumbbell-showcase">
+                            <div class="dumbbell-plate left"></div>
+                            <div class="dumbbell-handle"></div>
+                            <div class="dumbbell-plate right"></div>
+                        </div>
+                    </div>
+                    <h3>Olympic Dumbbells</h3>
+                    <p>Professional-grade dumbbells ranging from 5lbs to 100lbs</p>
+                </div>
+                
+                <div class="equipment-item">
+                    <div class="equipment-3d">
+                        <div class="treadmill-showcase">
+                            <div class="treadmill-base"></div>
+                            <div class="treadmill-belt"></div>
+                            <div class="treadmill-console"></div>
+                        </div>
+                    </div>
+                    <h3>Advanced Treadmills</h3>
+                    <p>Smart treadmills with interactive screens and virtual training</p>
+                </div>
+                
+                <div class="equipment-item">
+                    <div class="equipment-3d">
+                        <div class="bench-press-showcase">
+                            <div class="bench-base"></div>
+                            <div class="bench-seat"></div>
+                            <div class="bench-rack"></div>
+                        </div>
+                    </div>
+                    <h3>Adjustable Bench Press</h3>
+                    <p>Multi-position benches for various pressing exercises</p>
+                </div>
+                
+                <div class="equipment-item">
+                    <div class="equipment-3d">
+                        <div class="cable-machine-showcase">
+                            <div class="cable-frame"></div>
+                            <div class="cable-pulley left"></div>
+                            <div class="cable-pulley right"></div>
+                        </div>
+                    </div>
+                    <h3>Cable Machines</h3>
+                    <p>Functional trainers for endless exercise possibilities</p>
+                </div>
+                
+                <div class="equipment-item">
+                    <div class="equipment-3d">
+                        <div class="bike-showcase">
+                            <div class="bike-frame"></div>
+                            <div class="bike-wheel front"></div>
+                            <div class="bike-wheel back"></div>
+                            <div class="bike-handlebars"></div>
+                        </div>
+                    </div>
+                    <h3>Spin Bikes</h3>
+                    <p>High-performance indoor cycling bikes with resistance control</p>
+                </div>
+                
+                <div class="equipment-item">
+                    <div class="equipment-3d">
+                        <div class="smith-machine-showcase">
+                            <div class="smith-frame"></div>
+                            <div class="smith-bar"></div>
+                            <div class="smith-hooks"></div>
+                        </div>
+                    </div>
+                    <h3>Smith Machine</h3>
+                    <p>Safe barbell training with guided vertical movement</p>
+                </div>
+            </div>
+            
+            <div class="equipment-info">
+                <h3>Why Our Equipment Matters</h3>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <div class="info-icon">🎯</div>
+                        <h4>Precision Engineering</h4>
+                        <p>Every piece is calibrated for optimal performance and safety</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🔧</div>
+                        <h4>Regular Maintenance</h4>
+                        <p>Equipment is serviced weekly to ensure perfect condition</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🆕</div>
+                        <h4>Latest Technology</h4>
+                        <p>We invest in the newest innovations for better results</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🏆</div>
+                        <h4>Professional Grade</h4>
+                        <p>Same equipment used by professional athletes worldwide</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
